@@ -465,6 +465,7 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .contact .contact-content .left p{
     text-align: justify;
 }
@@ -490,14 +491,11 @@ section .title::after{
     color: #333;
 }
 
-.contact .contact-content .right{
-    width: 45%;
-}
-
 .contact .contact-content .right img{
     height: 400px;
     width: 600px;
-    border-radius: 6px;
+    border-radius: 30%;
+    object-fit: cover;
 }
 
 /* footer section styling */
@@ -529,6 +527,13 @@ footer .created-by{
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 1104px) {
+    .contact .contact-content .right img{
         height: 350px;
         width: 350px;
     }
