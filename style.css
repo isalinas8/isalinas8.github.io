@@ -384,6 +384,9 @@ section .title::after{
     top: 0;
     background: crimson;
 }
+.skills-content .right .full::before{
+    width: 100%;
+}
 .skills-content .right .c::before{
     width: 90%;
 }
