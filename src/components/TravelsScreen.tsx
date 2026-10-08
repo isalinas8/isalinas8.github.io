@@ -140,6 +140,8 @@ export const TravelsScreen: React.FC<TravelsScreenProps> = ({
                 <img
                   src={dest.coverImage}
                   alt={dest.title}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover group-hover:scale-106 transition-transform duration-700"
                   referrerPolicy="no-referrer"
                 />

@@ -1,6 +1,6 @@
 import { Project } from '../../types';
 import tomtomHackathonImg from '../../assets/images/professional-profile/tomtom-wth.jpg';
-import tomtomNavSdkImg from '../../assets/images/professional-profile/map-display-premium.png';
+import tomtomNavSdkImg from '../../assets/images/professional-profile/map-display-premium.jpg';
 import plenoptikaQuickSeeImg from '../../assets/images/professional-profile/plenoptika-quicksee.jpg';
 import cajamarAgroImg from '../../assets/images/professional-profile/cajamar-agroanalysis.jpg';
 import mechanicalArmImg from '../../assets/images/professional-profile/mechanical-arm.jpg';

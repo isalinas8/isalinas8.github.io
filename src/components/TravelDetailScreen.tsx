@@ -150,6 +150,7 @@ export const TravelDetailScreen: React.FC<TravelDetailScreenProps> = ({
         <img
           src={destination.coverImage}
           alt={destination.title}
+          decoding="async"
           className="w-full h-full object-cover object-center"
           referrerPolicy="no-referrer"
         />
@@ -506,6 +507,8 @@ export const TravelDetailScreen: React.FC<TravelDetailScreenProps> = ({
                             <img
                               src={photoUrl}
                               alt={`${currentDay.title} photo ${pIdx + 1}`}
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                               referrerPolicy="no-referrer"
                             />

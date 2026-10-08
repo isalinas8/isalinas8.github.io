@@ -52,6 +52,8 @@ export const ContactScreen: React.FC<ContactScreenProps> = ({ onNavigate }) => {
               <img 
                 src={contactIllustration} 
                 alt="Nacho Salinas & companion illustration" 
+                loading="lazy"
+                decoding="async"
                 className="w-40 sm:w-48 md:w-56 h-auto object-contain rounded-2xl"
               />
             </div>
