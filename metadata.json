@@ -1,0 +1,6 @@
+{
+  "name": "Nacho Salinas Hub",
+  "description": "Interactive personal portfolio and bio-link hub for Nacho Salinas - Software Engineer & Data Scientist.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
